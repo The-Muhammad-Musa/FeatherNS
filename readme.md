@@ -1,10 +1,6 @@
-===============================
-Feather v2.1.0
+# Feather v2.2 README
 
-Derivative extension of SweezeBreeze, with removed and added stuff, tailored towards raiders/tags
-
-================================
-KEY LIST:
+## KEY LIST:
 
 R = Confirm WA join
 S = Endorse
@@ -17,11 +13,11 @@ B = Visit Divide By Zero page, twice move back to DBZ
 F = Move to region
 A = Refresh
 O = Ban
-===============================
+
+## CHANGELOG
 
 2.2
 Rewrote the script in Mousetrap due to the deprecation of the keyCode method as well as for code cleanliness sake, switched from jQuery in favor of Cash to save ~60KB
-
 ---
 2.1
 Updated to current Feather - Alterations Made By Miravana
