@@ -19,11 +19,14 @@ A = Refresh
 O = Ban
 ===============================
 
+2.2
+Rewrote the script in Mousetrap due to the deprecation of the keyCode method as well as for code cleanliness sake, switched from jQuery in favor of Cash to save ~60KB
+
+---
 2.1
 Updated to current Feather - Alterations Made By Miravana
 Removed Dossier/Reports Functionality
 Changed Keybinds and Regional Information
-
 ---
 2.0 
 Updated to current SweezeBreeze - Script By Sweeze
