@@ -1,21 +1,27 @@
 ===============================
-Feather v2.3.0
+Feather v3.0.0
 
 Derivative extension of SweezeBreeze, with removed and added stuff, tailored towards raiders/tags
 
 ================================
 KEY LIST:
 
-R = Confirm WA join
-S = Endorse
-B = Visit Divide By Zero page, twice move back to DBZ
-F = Move to region
-A = Refresh
-O = Ban
+A: reload page
+Q: go back
+U: check if you updated
+S: endorse nation
+O: ban nation
+K: eject nation
+R: confirm wa join
+F: move to region whose page you're currently on
+B: move to DBZ
+E: apply/resign to WA
+W: go to current region page
+D: appoint yourself as and/or deappoint ROs
 ===============================
 
-2.3
-No more cash/jQuery alternative!
+3.0
+Removed mousetrap, rewritten to use pure javascript instead
 
 ---
 2.2
