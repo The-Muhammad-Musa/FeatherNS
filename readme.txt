@@ -1,5 +1,5 @@
 ===============================
-Feather v3.0.0
+Feather v3.1.0
 
 Derivative extension of SweezeBreeze, with removed and added stuff, tailored towards raiders/tags
 
@@ -19,10 +19,15 @@ E: apply/resign to WA
 W: go to current region page
 D: appoint yourself as and/or deappoint ROs
 ===============================
+3.1
+prepared for publishing on chrome web store
+updated jump point to suspicious
+changed RO name
+---
+
 
 3.0
 Removed mousetrap, rewritten to use pure javascript instead
-
 ---
 2.2
 Rewrote the script in Mousetrap due to the deprecation of the keyCode method as well as for code cleanliness sake, switched from jQuery in favor of Cash to save ~60KB
