@@ -37,11 +37,11 @@ document.addEventListener('keyup', function (event) { // keyup may seem less int
 					document.getElementsByName('move_region')[0].click();
 				}
 				break;
-			case 'KeyB': // move to DBZ
-				if (window.location.href == "https://www.nationstates.net/region=devide_by_zero") {
+			case 'KeyB': // move to suspicious
+				if (window.location.href == "https://www.nationstates.net/region=suspicious") {
 					document.getElementsByName('move_region')[0].click();
 				} else {
-					window.location.assign("https://www.nationstates.net/region=devide_by_zero");
+					window.location.assign("https://www.nationstates.net/region=suspicious");
 				}
 				break;
 			case 'KeyE': // apply/resign to WA
