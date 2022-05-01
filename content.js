@@ -51,12 +51,17 @@ document.addEventListener('keyup', function (event) { // keyup may seem less int
 					window.location.assign("https://www.nationstates.net/page=un");
 				}
 				break;
-			case 'KeyW': // go to current region page
+			case 'KeyZ': // go to current region page
 				if (window.location.href == "https://www.nationstates.net/page=change_region") { // if on post-relocation page
 					document.getElementsByClassName('info')[0].querySelector('a').click(); // click the region link on the relocation page
 				} else { // otherwise just click the region link through the sidebar
 					document.getElementById('panelregionbar').querySelector('a').click();
 				}
+				break;
+			case 'KeyV': // Copy the current nation to the clipboard
+				var NationLink = document.getElementsByClassName("bellink quietlink");
+				var NationURL = NationLink[0].href;
+				navigator.clipboard.writeText(NationURL);
 				break;
 			case 'KeyD': // appoint yourself as and/or deappoint ROs
 				var current_nation = document.getElementById("loggedin").getAttribute("data-nname");
