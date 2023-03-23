@@ -4,20 +4,24 @@ Feather v3.1.0
 Derivative extension of SweezeBreeze, with removed and added stuff, tailored towards raiders/tags
 
 ================================
-KEY LIST:
-
-A: reload page
-Q: go back
-U: check if you updated
-S: endorse nation
-O: ban nation
-K: eject nation
-R: confirm wa join
-F: move to region whose page you're currently on
-B: move to DBZ
-E: apply/resign to WA
-W: go to current region page
-D: appoint yourself as and/or deappoint ROs
+FEATHER KEYS: <br> <hr>
+A: Reload Page<br>
+B: Move To Suspicious<br>
+D: Appoints/Removes Regional Officers<br>
+E: Apply To WA<br>
+F: Move To Region<br>
+K: Eject Nation<br>
+O: Ban Nation<br>
+Q: Return To Last Page<br>
+R: Resign From WA<br>
+S: Endorse Nation<br>
+U: Check If Your Nation Updated (Template None)<br>
+V: Copy Current Nation To Keyboard<br>
+Z: Go To Current Region's Page<br>
+===============================
+Musa Branch!
+I reordered the code to be in alphabetical order and otherwise follow conventions that my IDE yelled about
+I replaced R with a resign from Wa and E is a one click apply, using cgi scripts :o
 ===============================
 3.1
 prepared for publishing on chrome web store
